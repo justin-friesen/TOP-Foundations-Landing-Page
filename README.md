@@ -1,0 +1,1 @@
+This is a project for The Odin Project in their Foundations Course. It focuses on HTML and CSS skills.
