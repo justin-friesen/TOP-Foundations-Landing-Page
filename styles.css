@@ -93,6 +93,44 @@ button {
 
 .information-pane {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px;
+}
+
+.information-title h3 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+}
+
+.information-content {
+    width: 900px;
+    margin: 40px;
+}
+
+.information-boxes {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+}
+
+.box img {
+    width: 150px;
+    height: 150px;
+    outline: 2px solid #3882f6;
+    border-radius: 5px;
+}
+
+.box p {
+    text-align: center;
 }
 
 .quote-block {
